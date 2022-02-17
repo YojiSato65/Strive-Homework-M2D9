@@ -16,3 +16,14 @@
     flex-direction: column;
     justify-content: space-evenly
 }
+
+/* ex.3 */
+.card {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
