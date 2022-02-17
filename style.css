@@ -42,3 +42,18 @@ h2 {
     background-color: #d62828;
     color: #eae2b7;
 }
+
+/* ex.5 */
+td:last-of-type {
+    width: 100px;
+}
+
+/* ex.6 */
+.button-ex6:hover {
+animation-name: hover-button;
+animation-duration: 0.5s;
+}
+
+@keyframes hover-button {
+
+}
