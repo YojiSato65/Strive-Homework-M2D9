@@ -49,11 +49,18 @@ td:last-of-type {
 }
 
 /* ex.6 */
-.button-ex6:hover {
-animation-name: hover-button;
-animation-duration: 0.5s;
+.button-ex6 {
+    transition:0.3s;
 }
 
-@keyframes hover-button {
-
+.button-ex6:hover {
+/* animation-name: hover-button;
+animation-duration: 0.5s; */
+background-color: rgb(240, 240, 240);
+color: #007bff;
+position: relative;
+top: -3px;
+box-shadow: 2px 8px 18px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 8px 18px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 8px 18px -2px rgba(0,0,0,0.75);
 }
