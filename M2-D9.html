@@ -32,7 +32,7 @@ Make sure you check the documentation before creting anything custom.
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,18 +76,19 @@ Make sure you check the documentation before creting anything custom.
     -->
     <div class="jumbotron">
         <div class="d-flex ex1-div1">
-            <div class="d-flex ex2-div2">
-                <h1 class="display-4">Hello, world!</h1>
+            <div class="d-flex ex2-div2 px-4">
+                <h1 class="display-4 pb-3">Hello, world!</h1>
                 <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
                     attention
                     to
                     featured content or information.</p>
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.
+                </p>
             </div>
             <img src="https://tse3.mm.bing.net/th?id=OIP.qLlchUtL2U2C-l6Z9oMwbgHaEy&pid=Api"
                 class="d-flex img-fluid w-100" alt="music image">
         </div>
 
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     </div>
 
@@ -96,6 +97,62 @@ Make sure you check the documentation before creting anything custom.
         Use a Bootstrap Card to contain every album in the favorite list you previously created.
         Use the elements of a card bootstrap provides you with to display nicely the album informations such as: album title, artist, year, etc..
     -->
+    <section>
+        <h2 class="text-center py-3">Favorite Albums</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="https://tse3.mm.bing.net/th?id=OIP.jrEORrjwRv3ZBnXocXK9mQHaHa&pid=Api"
+                                class="card-img-top img-fluid w-100" alt="album image">
+                            <div class="card-body">
+                                <h5 class="card-title">The music</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Artist: The music</li>
+                                <li class="list-group-item">Released: 1990</li>
+                                <li class="list-group-item">Genre: Rock</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="https://tse3.mm.bing.net/th?id=OIP.jrEORrjwRv3ZBnXocXK9mQHaHa&pid=Api"
+                                class="card-img-top img-fluid w-100" alt="album image">
+                            <div class="card-body">
+                                <h5 class="card-title">The music</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Artist: The music</li>
+                                <li class="list-group-item">Released: 1990</li>
+                                <li class="list-group-item">Genre: Rock</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="https://tse3.mm.bing.net/th?id=OIP.jrEORrjwRv3ZBnXocXK9mQHaHa&pid=Api"
+                                class="card-img-top img-fluid w-100" alt="album image">
+                            <div class="card-body">
+                                <h5 class="card-title">The music</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Artist: The music</li>
+                                <li class="list-group-item">Released: 1990</li>
+                                <li class="list-group-item">Genre: Rock</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
 
     <!-- EXERCISE 3
         For every album in the favorite list, attach a badge on the top-left corner of the album with the genre of the music

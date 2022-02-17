@@ -13,5 +13,6 @@
 }
 
 .ex2-div2 {
-    flex-direction: column
+    flex-direction: column;
+    justify-content: space-evenly
 }
