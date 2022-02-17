@@ -1,3 +1,12 @@
+/* * {
+    background-color: #f0b7b7;
+} */
+
+h2 {
+    background-color: #eae2b7;
+}
+
+/* ex.1 */
 .jumbotron {
     animation-duration: 2s;
     animation-name: fade-in;
@@ -26,4 +35,10 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+/* ex.4 */
+.table.table-borderless.table-dark {
+    background-color: #d62828;
+    color: #eae2b7;
 }
